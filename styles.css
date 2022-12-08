@@ -1,0 +1,101 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.body {
+    background-image: url('background.jpeg');
+}
+.img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    width: 300px;
+    margin-left: 465px;
+    margin-top: 30px;
+}
+.body-text {
+    display: flex;
+    font-family: "Bodoni MT", Didot, "Didot LT STD", "Book Antiqua", Garamond, "Times New Roman", serif;
+    font-size: 23px;
+    letter-spacing: 3px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 150px;
+    color: white;
+    text-transform: lowercase;
+}
+.body-text-text {
+    display: flex;
+    font-family: "Bodoni MT", Didot, "Didot LT STD", "Book Antiqua", Garamond, "Times New Roman", serif;
+    font-size: 23px;
+    letter-spacing: 3px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+    color: white;
+    text-transform: lowercase;
+}
+.body-body {
+    display: flex;
+    font-family: "Bodoni MT", Didot, "Didot LT STD", "Book Antiqua", Garamond, "Times New Roman", serif;
+    font-size: 25px;
+    letter-spacing: 3px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 65px;
+    margin-left: 140px;
+    margin-right: 75px;
+    color: white;
+    text-transform: lowercase;
+}
+.personas-body {
+    display: flex;
+    font-family: "Bodoni MT", Didot, "Didot LT STD", "Book Antiqua", Garamond, "Times New Roman", serif;
+    font-size: 25px;
+    letter-spacing: 3px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 12px;
+    margin-left: 140px;
+    margin-right: 75px;
+    color: white;
+    text-transform: lowercase;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    background-color: rgb(3, 4, 6);
+}
+.nav-links {
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+    padding-right: 5%;
+}
+.nav-links li {
+    list-style: none;
+}
+.heading {
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 20px;
+}
+.nav-links a{
+    color: white;
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 14px 16px;
+}
+.nav-links li a:hover:not(.active) {
+    background-color: lightseagreen;
+}
+.nav-links li a.active {
+    background-color: lightseagreen;
+}
