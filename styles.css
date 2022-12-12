@@ -95,12 +95,13 @@ nav {
     padding: 14px 16px;
 }
 .links {
-    display: flex;
+    display: center;
     justify-content: space-around;
     align-items: center;
     justify-content: center;
     padding-right: 5%;
     padding-left: 52%;
+    padding-top: 4%;
 }
 .links a {
     color: white;
